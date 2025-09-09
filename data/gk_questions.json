@@ -1,0 +1,122 @@
+[
+  { "stage": 1, "field": "gk", "question": "Which is the largest planet in our Solar System?", "options": ["Earth", "Mars", "Jupiter", "Saturn"], "answer": "Jupiter" },
+  { "stage": 1, "field": "gk", "question": "Who was the first Prime Minister of India?", "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Indira Gandhi"], "answer": "Jawaharlal Nehru" },
+  { "stage": 1, "field": "gk", "question": "What is the capital city of France?", "options": ["Berlin", "London", "Rome", "Paris"], "answer": "Paris" },
+  { "stage": 1, "field": "gk", "question": "Which is the smallest continent in the world?", "options": ["Asia", "Australia", "Europe", "Antarctica"], "answer": "Australia" },
+  { "stage": 1, "field": "gk", "question": "Which is the national animal of India?", "options": ["Lion", "Elephant", "Tiger", "Peacock"], "answer": "Tiger" },
+
+  { "stage": 1, "field": "gk", "question": "Who invented the light bulb?", "options": ["Albert Einstein", "Thomas Edison", "Nikola Tesla", "Alexander Bell"], "answer": "Thomas Edison" },
+  { "stage": 1, "field": "gk", "question": "How many players are there in a cricket team?", "options": ["9", "10", "11", "12"], "answer": "11" },
+  { "stage": 1, "field": "gk", "question": "Which is the longest river in the world?", "options": ["Amazon", "Nile", "Ganga", "Yangtze"], "answer": "Nile" },
+  { "stage": 1, "field": "gk", "question": "What is the national currency of Japan?", "options": ["Yen", "Won", "Dollar", "Peso"], "answer": "Yen" },
+  { "stage": 1, "field": "gk", "question": "Who wrote the national anthem of India?", "options": ["Rabindranath Tagore", "Bankim Chandra Chattopadhyay", "Mahatma Gandhi", "Sarojini Naidu"], "answer": "Rabindranath Tagore" },
+
+  { "stage": 1, "field": "gk", "question": "Which is the fastest land animal?", "options": ["Lion", "Cheetah", "Horse", "Leopard"], "answer": "Cheetah" },
+  { "stage": 1, "field": "gk", "question": "What is the boiling point of water?", "options": ["50°C", "100°C", "150°C", "200°C"], "answer": "100°C" },
+  { "stage": 1, "field": "gk", "question": "Which ocean is the largest in the world?", "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Arctic Ocean"], "answer": "Pacific Ocean" },
+  { "stage": 1, "field": "gk", "question": "How many colors are there in a rainbow?", "options": ["5", "6", "7", "8"], "answer": "7" },
+  { "stage": 1, "field": "gk", "question": "Which planet is known as the Red Planet?", "options": ["Earth", "Mars", "Jupiter", "Saturn"], "answer": "Mars" },
+
+  { "stage": 1, "field": "gk", "question": "In which country were the Olympic Games first held?", "options": ["Italy", "Greece", "France", "China"], "answer": "Greece" },
+  { "stage": 1, "field": "gk", "question": "Who painted the Mona Lisa?", "options": ["Vincent Van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"], "answer": "Leonardo da Vinci" },
+  { "stage": 1, "field": "gk", "question": "Which gas do humans exhale during breathing?", "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"], "answer": "Carbon dioxide" },
+  { "stage": 1, "field": "gk", "question": "What is the national flower of India?", "options": ["Rose", "Lotus", "Lily", "Sunflower"], "answer": "Lotus" },
+  { "stage": 1, "field": "gk", "question": "Which is the largest desert in the world?", "options": ["Thar", "Sahara", "Gobi", "Kalahari"], "answer": "Sahara" },
+
+  { "stage": 1, "field": "gk", "question": "Who is known as the Father of the Nation in India?", "options": ["Subhash Chandra Bose", "Mahatma Gandhi", "Jawaharlal Nehru", "Dr. B. R. Ambedkar"], "answer": "Mahatma Gandhi" },
+  { "stage": 1, "field": "gk", "question": "Which is the smallest planet in our Solar System?", "options": ["Mercury", "Mars", "Venus", "Pluto"], "answer": "Mercury" },
+  { "stage": 1, "field": "gk", "question": "Which country is known as the Land of Rising Sun?", "options": ["India", "China", "Japan", "Korea"], "answer": "Japan" },
+  { "stage": 1, "field": "gk", "question": "How many continents are there on Earth?", "options": ["5", "6", "7", "8"], "answer": "7" },
+  { "stage": 1, "field": "gk", "question": "What is H2O commonly known as?", "options": ["Salt", "Water", "Oxygen", "Hydrogen"], "answer": "Water" },
+
+  { "stage": 2, "field": "gk", "question": "Which is the longest wall in the world?", "options": ["Berlin Wall", "Great Wall of China", "Hadrian’s Wall", "Western Wall"], "answer": "Great Wall of China" },
+  { "stage": 2, "field": "gk", "question": "Which country is both in Europe and Asia?", "options": ["India", "Turkey", "Egypt", "Mexico"], "answer": "Turkey" },
+  { "stage": 2, "field": "gk", "question": "Who was the first woman Prime Minister of India?", "options": ["Sarojini Naidu", "Indira Gandhi", "Sonia Gandhi", "Pratibha Patil"], "answer": "Indira Gandhi" },
+  { "stage": 2, "field": "gk", "question": "What is the largest organ in the human body?", "options": ["Heart", "Brain", "Liver", "Skin"], "answer": "Skin" },
+  { "stage": 2, "field": "gk", "question": "Which is the largest island in the world?", "options": ["Greenland", "Madagascar", "Iceland", "New Guinea"], "answer": "Greenland" },
+
+  { "stage": 2, "field": "gk", "question": "Which is the national game of Japan?", "options": ["Karate", "Judo", "Sumo Wrestling", "Kendo"], "answer": "Sumo Wrestling" },
+  { "stage": 2, "field": "gk", "question": "Who invented the telephone?", "options": ["Thomas Edison", "Alexander Graham Bell", "Nikola Tesla", "James Watt"], "answer": "Alexander Graham Bell" },
+  { "stage": 2, "field": "gk", "question": "Which planet is known as the Morning Star?", "options": ["Venus", "Mars", "Mercury", "Jupiter"], "answer": "Venus" },
+  { "stage": 2, "field": "gk", "question": "Which continent is known as the Dark Continent?", "options": ["Africa", "South America", "Australia", "Antarctica"], "answer": "Africa" },
+  { "stage": 2, "field": "gk", "question": "Which gas is most abundant in the Earth's atmosphere?", "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"], "answer": "Nitrogen" },
+
+  { "stage": 2, "field": "gk", "question": "Which scientist proposed the theory of relativity?", "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Charles Darwin"], "answer": "Albert Einstein" },
+  { "stage": 2, "field": "gk", "question": "Which is the deepest ocean in the world?", "options": ["Atlantic Ocean", "Pacific Ocean", "Indian Ocean", "Arctic Ocean"], "answer": "Pacific Ocean" },
+  { "stage": 2, "field": "gk", "question": "Which Mughal emperor built the Taj Mahal?", "options": ["Akbar", "Aurangzeb", "Shah Jahan", "Jahangir"], "answer": "Shah Jahan" },
+  { "stage": 2, "field": "gk", "question": "Which country gifted the Statue of Liberty to the USA?", "options": ["England", "France", "Spain", "Germany"], "answer": "France" },
+  { "stage": 2, "field": "gk", "question": "In which year did World War II end?", "options": ["1942", "1945", "1947", "1950"], "answer": "1945" },
+
+  { "stage": 2, "field": "gk", "question": "Which is the currency of Russia?", "options": ["Dollar", "Yen", "Ruble", "Euro"], "answer": "Ruble" },
+  { "stage": 2, "field": "gk", "question": "Which blood group is known as the universal donor?", "options": ["A", "B", "O Negative", "AB"], "answer": "O Negative" },
+  { "stage": 2, "field": "gk", "question": "What is the capital of Canada?", "options": ["Toronto", "Vancouver", "Ottawa", "Montreal"], "answer": "Ottawa" },
+  { "stage": 2, "field": "gk", "question": "Which element has the chemical symbol ‘Au’?", "options": ["Silver", "Gold", "Aluminium", "Argon"], "answer": "Gold" },
+  { "stage": 2, "field": "gk", "question": "Who was the first man to step on the Moon?", "options": ["Yuri Gagarin", "Buzz Aldrin", "Neil Armstrong", "Michael Collins"], "answer": "Neil Armstrong" },
+
+  { "stage": 2, "field": "gk", "question": "Which is the largest democracy in the world?", "options": ["USA", "India", "China", "Brazil"], "answer": "India" },
+  { "stage": 2, "field": "gk", "question": "What is the capital of South Korea?", "options": ["Tokyo", "Beijing", "Seoul", "Busan"], "answer": "Seoul" },
+  { "stage": 2, "field": "gk", "question": "Which vitamin is produced when the human body is exposed to sunlight?", "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"], "answer": "Vitamin D" },
+  { "stage": 2, "field": "gk", "question": "What is the national bird of the United States?", "options": ["Bald Eagle", "Sparrow", "Ostrich", "Hawk"], "answer": "Bald Eagle" },
+  { "stage": 2, "field": "gk", "question": "Which scientist is known as the father of modern physics?", "options": ["Albert Einstein", "Galileo Galilei", "Isaac Newton", "Niels Bohr"], "answer": "Isaac Newton" },
+
+  { "stage": 3, "field": "gk", "question": "Which is the largest plateau in the world?", "options": ["Deccan Plateau", "Tibetan Plateau", "Colorado Plateau", "Mongolian Plateau"], "answer": "Tibetan Plateau" },
+  { "stage": 3, "field": "gk", "question": "Who was the first President of the United States?", "options": ["Abraham Lincoln", "George Washington", "Thomas Jefferson", "John Adams"], "answer": "George Washington" },
+  { "stage": 3, "field": "gk", "question": "Which Indian scientist is known as the 'Missile Man of India'?", "options": ["C. V. Raman", "Homi Bhabha", "A. P. J. Abdul Kalam", "Vikram Sarabhai"], "answer": "A. P. J. Abdul Kalam" },
+  { "stage": 3, "field": "gk", "question": "Which city is known as the 'City of Canals'?", "options": ["Venice", "Amsterdam", "Bruges", "Bangkok"], "answer": "Venice" },
+  { "stage": 3, "field": "gk", "question": "Who discovered the electron?", "options": ["J. J. Thomson", "James Chadwick", "Ernest Rutherford", "Niels Bohr"], "answer": "J. J. Thomson" },
+
+  { "stage": 3, "field": "gk", "question": "Which book was written by Chanakya?", "options": ["Arthashastra", "Mahabharata", "Ramayana", "Manusmriti"], "answer": "Arthashastra" },
+  { "stage": 3, "field": "gk", "question": "Which is the smallest ocean in the world?", "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Southern Ocean"], "answer": "Arctic Ocean" },
+  { "stage": 3, "field": "gk", "question": "Which Indian won the first Nobel Prize?", "options": ["C. V. Raman", "Mother Teresa", "Rabindranath Tagore", "Amartya Sen"], "answer": "Rabindranath Tagore" },
+  { "stage": 3, "field": "gk", "question": "Which country is the largest producer of coffee?", "options": ["India", "Vietnam", "Brazil", "Colombia"], "answer": "Brazil" },
+  { "stage": 3, "field": "gk", "question": "Who was the first woman to win a Nobel Prize?", "options": ["Mother Teresa", "Marie Curie", "Rosalind Franklin", "Jane Austen"], "answer": "Marie Curie" },
+
+  { "stage": 3, "field": "gk", "question": "Which country hosted the first modern Olympic Games in 1896?", "options": ["France", "Greece", "USA", "Italy"], "answer": "Greece" },
+  { "stage": 3, "field": "gk", "question": "Which Indian king is also known as 'Ashoka the Great'?", "options": ["Chandragupta Maurya", "Ashoka Maurya", "Harsha", "Samudragupta"], "answer": "Ashoka Maurya" },
+  { "stage": 3, "field": "gk", "question": "Which is the currency of Switzerland?", "options": ["Euro", "Pound", "Franc", "Dollar"], "answer": "Franc" },
+  { "stage": 3, "field": "gk", "question": "Who is the author of the book 'Origin of Species'?", "options": ["Charles Darwin", "Gregor Mendel", "Louis Pasteur", "Isaac Newton"], "answer": "Charles Darwin" },
+  { "stage": 3, "field": "gk", "question": "Which country has the most natural lakes?", "options": ["Canada", "Russia", "USA", "India"], "answer": "Canada" },
+
+  { "stage": 3, "field": "gk", "question": "In which year did India become a republic?", "options": ["1947", "1948", "1950", "1952"], "answer": "1950" },
+  { "stage": 3, "field": "gk", "question": "Who is known as the Father of Economics?", "options": ["Karl Marx", "Adam Smith", "John Keynes", "Milton Friedman"], "answer": "Adam Smith" },
+  { "stage": 3, "field": "gk", "question": "Which planet has the largest number of moons?", "options": ["Jupiter", "Saturn", "Mars", "Neptune"], "answer": "Saturn" },
+  { "stage": 3, "field": "gk", "question": "Which Indian classical dance form originated in Kerala?", "options": ["Bharatanatyam", "Kathakali", "Odissi", "Manipuri"], "answer": "Kathakali" },
+  { "stage": 3, "field": "gk", "question": "Who gave the slogan 'Inquilab Zindabad'?", "options": ["Mahatma Gandhi", "Subhas Chandra Bose", "Bhagat Singh", "Bal Gangadhar Tilak"], "answer": "Bhagat Singh" },
+
+  { "stage": 3, "field": "gk", "question": "Which is the largest gland in the human body?", "options": ["Pancreas", "Liver", "Thyroid", "Kidney"], "answer": "Liver" },
+  { "stage": 3, "field": "gk", "question": "Which scientist discovered penicillin?", "options": ["Alexander Fleming", "Louis Pasteur", "Joseph Lister", "Robert Koch"], "answer": "Alexander Fleming" },
+  { "stage": 3, "field": "gk", "question": "Which city is home to the headquarters of the United Nations?", "options": ["Geneva", "Paris", "New York", "London"], "answer": "New York" },
+  { "stage": 3, "field": "gk", "question": "Which Indian freedom fighter was popularly known as 'Netaji'?", "options": ["Mahatma Gandhi", "Bhagat Singh", "Subhas Chandra Bose", "Sardar Patel"], "answer": "Subhas Chandra Bose" },
+  { "stage": 3, "field": "gk", "question": "Which is the hardest natural substance on Earth?", "options": ["Iron", "Diamond", "Quartz", "Gold"], "answer": "Diamond" },
+  
+  { "stage": 4, "field": "gk", "question": "Which is the smallest independent country in the world by area?", "options": ["Monaco", "Vatican City", "Liechtenstein", "San Marino"], "answer": "Vatican City" },
+  { "stage": 4, "field": "gk", "question": "Which treaty ended World War I?", "options": ["Treaty of Versailles", "Treaty of Paris", "Treaty of Ghent", "Treaty of Tordesillas"], "answer": "Treaty of Versailles" },
+  { "stage": 4, "field": "gk", "question": "Who was the first woman in space?", "options": ["Valentina Tereshkova", "Sally Ride", "Kalpana Chawla", "Yuri Gagarin"], "answer": "Valentina Tereshkova" },
+  { "stage": 4, "field": "gk", "question": "Which is the longest mountain range in the world?", "options": ["Himalayas", "Andes", "Rockies", "Alps"], "answer": "Andes" },
+  { "stage": 4, "field": "gk", "question": "Which is the oldest stock exchange in Asia?", "options": ["Bombay Stock Exchange", "Tokyo Stock Exchange", "Shanghai Stock Exchange", "Hong Kong Stock Exchange"], "answer": "Bombay Stock Exchange" },
+
+  { "stage": 4, "field": "gk", "question": "Who was awarded the Nobel Peace Prize in 2021?", "options": ["Abiy Ahmed", "Maria Ressa and Dmitry Muratov", "World Food Programme", "Malala Yousafzai"], "answer": "Maria Ressa and Dmitry Muratov" },
+  { "stage": 4, "field": "gk", "question": "Which is the deepest point in the Earth's oceans?", "options": ["Tonga Trench", "Mariana Trench", "Puerto Rico Trench", "Java Trench"], "answer": "Mariana Trench" },
+  { "stage": 4, "field": "gk", "question": "Which Indian mathematician was known as the 'Man who knew infinity'?", "options": ["Satyendra Nath Bose", "Srinivasa Ramanujan", "C. V. Raman", "Harish-Chandra"], "answer": "Srinivasa Ramanujan" },
+  { "stage": 4, "field": "gk", "question": "Which African country was formerly known as Abyssinia?", "options": ["Ethiopia", "Sudan", "Somalia", "Eritrea"], "answer": "Ethiopia" },
+  { "stage": 4, "field": "gk", "question": "Which scientist proposed the uncertainty principle?", "options": ["Albert Einstein", "Werner Heisenberg", "Max Planck", "Erwin Schrödinger"], "answer": "Werner Heisenberg" },
+
+  { "stage": 4, "field": "gk", "question": "Which novel begins with the line 'Call me Ishmael'?", "options": ["Moby-Dick", "The Great Gatsby", "War and Peace", "Pride and Prejudice"], "answer": "Moby-Dick" },
+  { "stage": 4, "field": "gk", "question": "Which Indian state was formerly known as NEFA?", "options": ["Arunachal Pradesh", "Nagaland", "Meghalaya", "Mizoram"], "answer": "Arunachal Pradesh" },
+  { "stage": 4, "field": "gk", "question": "Which desert is the largest hot desert in the world?", "options": ["Gobi", "Sahara", "Kalahari", "Mojave"], "answer": "Sahara" },
+  { "stage": 4, "field": "gk", "question": "Who was the first Asian to receive the Nobel Prize?", "options": ["C. V. Raman", "Rabindranath Tagore", "Mother Teresa", "Amartya Sen"], "answer": "Rabindranath Tagore" },
+  { "stage": 4, "field": "gk", "question": "Which gas is known as 'laughing gas'?", "options": ["Nitrogen", "Nitrous oxide", "Carbon monoxide", "Helium"], "answer": "Nitrous oxide" },
+
+  { "stage": 4, "field": "gk", "question": "Which strait separates Asia from North America?", "options": ["Bering Strait", "Bosporus Strait", "Strait of Hormuz", "Malacca Strait"], "answer": "Bering Strait" },
+  { "stage": 4, "field": "gk", "question": "Who was the first Indian to travel to space?", "options": ["Kalpana Chawla", "Rakesh Sharma", "Sunita Williams", "Vikram Sarabhai"], "answer": "Rakesh Sharma" },
+  { "stage": 4, "field": "gk", "question": "Which is the world's largest volcano?", "options": ["Mount Etna", "Mauna Loa", "Krakatoa", "Mount Fuji"], "answer": "Mauna Loa" },
+  { "stage": 4, "field": "gk", "question": "Who wrote the book 'The Republic'?", "options": ["Plato", "Aristotle", "Socrates", "Descartes"], "answer": "Plato" },
+  { "stage": 4, "field": "gk", "question": "Which country was formerly called Ceylon?", "options": ["Thailand", "Sri Lanka", "Myanmar", "Laos"], "answer": "Sri Lanka" },
+
+  { "stage": 4, "field": "gk", "question": "Which organization publishes the 'World Happiness Report'?", "options": ["United Nations", "World Economic Forum", "UN Sustainable Development Solutions Network", "OECD"], "answer": "UN Sustainable Development Solutions Network" },
+  { "stage": 4, "field": "gk", "question": "Which physicist is known for the law of universal gravitation?", "options": ["Galileo Galilei", "Isaac Newton", "Albert Einstein", "Stephen Hawking"], "answer": "Isaac Newton" },
+  { "stage": 4, "field": "gk", "question": "Which battle marked the beginning of British rule in India?", "options": ["Battle of Plassey", "Battle of Buxar", "Battle of Panipat", "Battle of Haldighati"], "answer": "Battle of Plassey" },
+  { "stage": 4, "field": "gk", "question": "Which country has the highest number of time zones?", "options": ["Russia", "USA", "France", "China"], "answer": "France" },
+  { "stage": 4, "field": "gk", "question": "Which Indian physicist won the Nobel Prize in Physics in 1930?", "options": ["Homi Bhabha", "C. V. Raman", "Satyendra Nath Bose", "Meghnad Saha"], "answer": "C. V. Raman" }
+]
+

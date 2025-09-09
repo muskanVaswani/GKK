@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "I’m an odd number. Remove one letter from my name and I become even. What number am I?",
+    "answer": "Seven",
+    "hint": "Remove the first letter."
+  },
+  {
+    "id": 2,
+    "question": "Multiply me by any other number and the result is always me. What number am I?",
+    "answer": "0",
+    "hint": "Anything × me = me."
+  },
+  {
+    "id": 3,
+    "question": "Find the next number in the sequence: 2, 3, 5, 9, 17, ?",
+    "answer": "33",
+    "hint": "Differences double each time."
+  },
+  {
+    "id": 4,
+    "question": "What three positive integers give the same result when added as when multiplied?",
+    "answer": "1, 2, 3",
+    "hint": "Try the smallest numbers."
+  },
+  {
+    "id": 5,
+    "question": "If you write every number from 1 to 100 (inclusive), how many times does the digit 1 appear?",
+    "answer": "21",
+    "hint": "Count in both the tens and ones place."
+  },
+  {
+    "id": 6,
+    "question": "What is 111,111,111 × 9?",
+    "answer": "999,999,999",
+    "hint": "It becomes nine 9s."
+  },
+  {
+    "id": 7,
+    "question": "I’m a two-digit number. When you reverse my digits and subtract the smaller from the larger you get 27. My digits add to 9. What number am I?",
+    "answer": "63",
+    "hint": "Digits add to 9, difference is 3."
+  },
+  {
+    "id": 8,
+    "question": "Which weighs more — a kilogram of steel or a kilogram of feathers?",
+    "answer": "They weigh the same",
+    "hint": "Both are 1 kilogram."
+  },
+  {
+    "id": 9,
+    "question": "Which single-digit number equals the number of letters in its English name?",
+    "answer": "4",
+    "hint": "Think of spelling it out."
+  },
+  {
+    "id": 10,
+    "question": "Pick any two-digit number, reverse its digits, subtract the smaller from the larger, then add the digits of the result. What is the final answer every time?",
+    "answer": "9",
+    "hint": "Always reduces to 9."
+  }
+]

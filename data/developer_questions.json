@@ -1,0 +1,735 @@
+[
+  {
+    "stage": 1,
+    "question": "A train 120 meters long crosses a pole in 12 seconds. What is its speed in km/hr?",
+    "options": ["30", "36", "40", "42"],
+    "answer": "36"
+  },
+  {
+    "stage": 1,
+    "question": "The average of five numbers is 27. If one number is removed, the average becomes 25. What was the removed number?",
+    "options": ["27", "28", "30", "35"],
+    "answer": "35"
+  },
+  {
+    "stage": 1,
+    "question": "What is the next number in the series: 2, 6, 12, 20, ?",
+    "options": ["28", "30", "32", "36"],
+    "answer": "30"
+  },
+  {
+    "stage": 1,
+    "question": "If 20% of a number is 40, what is the number?",
+    "options": ["100", "150", "180", "200"],
+    "answer": "200"
+  },
+  {
+    "stage": 1,
+    "question": "The sum of two numbers is 60 and their difference is 20. What is the larger number?",
+    "options": ["20", "30", "40", "50"],
+    "answer": "40"
+  },
+  {
+    "stage": 1,
+    "question": "If the cost price is 80 and selling price is 100, the profit percentage is?",
+    "options": ["15%", "20%", "22%", "25%"],
+    "answer": "25%"
+  },
+  {
+    "stage": 1,
+    "question": "Find the missing term: 144, 121, 100, 81, ?",
+    "options": ["60", "64", "70", "72"],
+    "answer": "64"
+  },
+  {
+    "stage": 1,
+    "question": "The ratio of ages of A and B is 3:5. If A is 15 years old, what is B's age?",
+    "options": ["20", "22", "24", "25"],
+    "answer": "25"
+  },
+  {
+    "stage": 1,
+    "question": "If 5 pencils cost 25, how much will 12 pencils cost?",
+    "options": ["50", "55", "60", "65"],
+    "answer": "60"
+  },
+  {
+    "stage": 1,
+    "question": "What is the LCM of 12 and 18?",
+    "options": ["24", "30", "36", "42"],
+    "answer": "36"
+  },
+  {
+    "stage": 1,
+    "question": "If a car covers 240 km in 4 hours, what is its average speed?",
+    "options": ["50 km/hr", "55 km/hr", "60 km/hr", "65 km/hr"],
+    "answer": "60 km/hr"
+  },
+  {
+    "stage": 1,
+    "question": "The perimeter of a square is 48 cm. What is the area?",
+    "options": ["120", "144", "150", "160"],
+    "answer": "144"
+  },
+  {
+    "stage": 1,
+    "question": "A shopkeeper buys an article for 200 and sells it at 15% profit. What is the selling price?",
+    "options": ["220", "225", "230", "235"],
+    "answer": "230"
+  },
+  {
+    "stage": 1,
+    "question": "If a clock shows 3:15, what is the angle between the hour and minute hands?",
+    "options": ["30°", "37.5°", "45°", "52.5°"],
+    "answer": "7.5°"
+  },
+  {
+    "stage": 1,
+    "question": "If 3 workers can complete a task in 12 days, in how many days will 6 workers complete it?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "6"
+  },
+  {
+    "stage": 1,
+    "question": "If the average of 8, 12, and 20 is x, what is x?",
+    "options": ["12", "13", "14", "15"],
+    "answer": "13.33"
+  },
+  {
+    "stage": 1,
+    "question": "If simple interest on 5000 at 5% for 2 years is x, find x.",
+    "options": ["400", "450", "500", "550"],
+    "answer": "500"
+  },
+  {
+    "stage": 1,
+    "question": "The sum of digits of a two-digit number is 9. If the number is 27 more than the reverse of its digits, what is the number?",
+    "options": ["63", "72", "81", "90"],
+    "answer": "72"
+  },
+  {
+    "stage": 1,
+    "question": "What is the probability of getting an even number when a dice is rolled?",
+    "options": ["1/2", "1/3", "2/3", "3/4"],
+    "answer": "1/2"
+  },
+  {
+    "stage": 1,
+    "question": "The difference between simple and compound interest on 1000 at 10% per annum for 2 years is?",
+    "options": ["10", "12", "15", "20"],
+    "answer": "10"
+  },
+  {
+    "stage": 1,
+    "question": "If 10% of a number is 25, what is 40% of the same number?",
+    "options": ["80", "90", "100", "120"],
+    "answer": "100"
+  },
+  {
+    "stage": 1,
+    "question": "A man can row 8 km/hr in still water. If the stream speed is 2 km/hr, what is his speed against the stream?",
+    "options": ["5 km/hr", "6 km/hr", "7 km/hr", "8 km/hr"],
+    "answer": "6 km/hr"
+  },
+  {
+    "stage": 1,
+    "question": "The sum of the first 20 natural numbers is?",
+    "options": ["190", "200", "210", "220"],
+    "answer": "210"
+  },
+  {
+    "stage": 1,
+    "question": "How many diagonals does a hexagon have?",
+    "options": ["6", "9", "12", "15"],
+    "answer": "9"
+  },
+  {
+    "stage": 1,
+    "question": "What is the compound interest on 2000 at 10% per annum for 2 years?",
+    "options": ["400", "420", "440", "450"],
+    "answer": "420"
+  },
+  {
+    "stage": 2,
+    "question": "What is the output of: print(type([]))?",
+    "options": ["<class 'dict'>", "<class 'tuple'>", "<class 'list'>", "<class 'set'>"],
+    "answer": "<class 'list'>"
+  },
+  {
+    "stage": 2,
+    "question": "Which of the following is mutable in Python?",
+    "options": ["tuple", "string", "list", "frozenset"],
+    "answer": "list"
+  },
+  {
+    "stage": 2,
+    "question": "Which keyword is used to create a function in Python?",
+    "options": ["func", "define", "def", "function"],
+    "answer": "def"
+  },
+  {
+    "stage": 2,
+    "question": "What is the output of: print('5' * 3)?",
+    "options": ["555", "15", "53", "Error"],
+    "answer": "555"
+  },
+  {
+    "stage": 2,
+    "question": "Which of the following is used to handle exceptions in Python?",
+    "options": ["catch-finally", "try-except", "throw-catch", "do-except"],
+    "answer": "try-except"
+  },
+  {
+    "stage": 2,
+    "question": "What is the default return value of a Python function that doesn’t explicitly return anything?",
+    "options": ["0", "Null", "None", "False"],
+    "answer": "None"
+  },
+  {
+    "stage": 2,
+    "question": "Which of the following data types is NOT built-in in Python?",
+    "options": ["list", "set", "dictionary", "tree"],
+    "answer": "tree"
+  },
+  {
+    "stage": 2,
+    "question": "Which SQL clause is used to filter records?",
+    "options": ["WHERE", "ORDER BY", "GROUP BY", "HAVING"],
+    "answer": "WHERE"
+  },
+  {
+    "stage": 2,
+    "question": "Which of the following is the correct way to start a for loop in Python?",
+    "options": ["for i to 5:", "foreach i in range(5):", "for i in range(5):", "loop i in 5:"],
+    "answer": "for i in range(5):"
+  },
+  {
+    "stage": 2,
+    "question": "In SQL, which command is used to remove a table and its data?",
+    "options": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+    "answer": "DROP"
+  },
+  {
+    "stage": 2,
+    "question": "Which of these operators is used for exponentiation in Python?",
+    "options": ["^", "**", "^^", "exp()"],
+    "answer": "**"
+  },
+  {
+    "stage": 2,
+    "question": "Which SQL statement is used to extract data from a database?",
+    "options": ["EXTRACT", "GET", "SELECT", "FETCH"],
+    "answer": "SELECT"
+  },
+  {
+    "stage": 2,
+    "question": "What is the output of: bool('False')?",
+    "options": ["True", "False", "Error", "None"],
+    "answer": "True"
+  },
+  {
+    "stage": 2,
+    "question": "Which of the following is used to add a new row in SQL?",
+    "options": ["INSERT INTO", "ADD ROW", "CREATE ROW", "APPEND"],
+    "answer": "INSERT INTO"
+  },
+  {
+    "stage": 2,
+    "question": "Which method is used to convert a string to lowercase in Python?",
+    "options": ["lower()", "down()", "tolower()", "case()"],
+    "answer": "lower()"
+  },
+  {
+    "stage": 2,
+    "question": "In SQL, which keyword is used to sort the result-set?",
+    "options": ["ORDER", "SORT BY", "ORDER BY", "ARRANGE"],
+    "answer": "ORDER BY"
+  },
+  {
+    "stage": 2,
+    "question": "Which of the following is a valid variable name in Python?",
+    "options": ["1value", "value_1", "value-1", "value@1"],
+    "answer": "value_1"
+  },
+  {
+    "stage": 2,
+    "question": "What does the SQL DISTINCT keyword do?",
+    "options": ["Deletes duplicates", "Returns unique values", "Counts rows", "Sorts values"],
+    "answer": "Returns unique values"
+  },
+  {
+    "stage": 2,
+    "question": "What is the output of len({'a':1, 'b':2, 'c':3})?",
+    "options": ["2", "3", "6", "Error"],
+    "answer": "3"
+  },
+  {
+    "stage": 2,
+    "question": "Which SQL function returns the number of rows in a result set?",
+    "options": ["TOTAL()", "COUNT()", "SUM()", "ROWS()"],
+    "answer": "COUNT()"
+  },
+  {
+    "stage": 2,
+    "question": "In Python, what is the correct file extension for files containing Python code?",
+    "options": [".pt", ".py", ".pyt", ".python"],
+    "answer": ".py"
+  },
+  {
+    "stage": 2,
+    "question": "Which SQL keyword is used to group rows that have the same values?",
+    "options": ["GROUP BY", "ORDER BY", "UNION", "CLUSTER"],
+    "answer": "GROUP BY"
+  },
+  {
+    "stage": 2,
+    "question": "Which function is used to get the length of a list in Python?",
+    "options": ["count()", "size()", "len()", "length()"],
+    "answer": "len()"
+  },
+  {
+    "stage": 2,
+    "question": "In SQL, which operator is used with WHERE to search for a specific pattern?",
+    "options": ["MATCH", "LIKE", "SEARCH", "PATTERN"],
+    "answer": "LIKE"
+  },
+  {
+    "stage": 2,
+    "question": "What is the output of: 10 // 3 in Python?",
+    "options": ["3", "3.33", "4", "Error"],
+    "answer": "3"
+  },
+  {
+    "stage": 3,
+    "question": "If you have two ropes that each take 60 minutes to burn, but burn unevenly, how can you measure exactly 45 minutes?",
+    "options": [
+      "Light both ends of one rope and one end of the other rope",
+      "Light one end of each rope",
+      "Cut one rope in half",
+      "Impossible to measure"
+    ],
+    "answer": "Light both ends of one rope and one end of the other rope"
+  },
+  {
+    "stage": 3,
+    "question": "A farmer has 17 sheep and all but 9 die. How many are left alive?",
+    "options": ["8", "9", "17", "None"],
+    "answer": "9"
+  },
+  {
+    "stage": 3,
+    "question": "If it takes 5 machines 5 minutes to make 5 widgets, how long would 100 machines take to make 100 widgets?",
+    "options": ["5 minutes", "100 minutes", "20 minutes", "50 minutes"],
+    "answer": "5 minutes"
+  },
+  {
+    "stage": 3,
+    "question": "Which number comes next in the sequence: 1, 4, 9, 16, ?",
+    "options": ["20", "24", "25", "30"],
+    "answer": "25"
+  },
+  {
+    "stage": 3,
+    "question": "You have 8 balls, one is heavier. How many weighings are needed to find the heavy ball using a balance scale?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "stage": 3,
+    "question": "If five cats can catch five mice in five minutes, how long will it take one cat to catch one mouse?",
+    "options": ["1 minute", "5 minutes", "25 minutes", "Cannot determine"],
+    "answer": "5 minutes"
+  },
+  {
+    "stage": 3,
+    "question": "A man is looking at a photograph of someone. His friend asks who it is. The man replies, 'Brothers and sisters, I have none. But the father of that man in the photograph is my father’s son.' Who is in the photograph?",
+    "options": ["His son", "His father", "Himself", "His nephew"],
+    "answer": "His son"
+  },
+  {
+    "stage": 3,
+    "question": "A clock shows the time as 3:15. What is the angle between the hour and minute hands?",
+    "options": ["0°", "7.5°", "30°", "45°"],
+    "answer": "7.5°"
+  },
+  {
+    "stage": 3,
+    "question": "If you flip a fair coin three times, what is the probability of getting exactly two heads?",
+    "options": ["1/8", "1/4", "3/8", "1/2"],
+    "answer": "3/8"
+  },
+  {
+    "stage": 3,
+    "question": "You have a 3-liter and a 5-liter jug. How can you measure exactly 4 liters?",
+    "options": [
+      "Fill 5L, pour into 3L, left in 5L is 2L, fill 3L again and pour to 5L",
+      "Fill 3L, pour into 5L, repeat",
+      "Impossible",
+      "Fill 5L and throw 1L"
+    ],
+    "answer": "Fill 5L, pour into 3L, left in 5L is 2L, fill 3L again and pour to 5L"
+  },
+  {
+    "stage": 3,
+    "question": "If you have 9 coins, one of which is fake and lighter, how many weighings are needed to find the fake one?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2"
+  },
+  {
+    "stage": 3,
+    "question": "If 6 pencils cost 12 rupees, how much do 15 pencils cost?",
+    "options": ["25", "30", "28", "35"],
+    "answer": "30"
+  },
+  {
+    "stage": 3,
+    "question": "You’re in a room with two doors. One leads to freedom, one to death. There are two guards: one always lies, one always tells the truth. You can ask one question. What do you ask?",
+    "options": [
+      "Which door leads to freedom?",
+      "Ask one guard what the other would say and choose the opposite",
+      "Ask both doors and pick randomly",
+      "Ask the liar which door leads to death"
+    ],
+    "answer": "Ask one guard what the other would say and choose the opposite"
+  },
+  {
+    "stage": 3,
+    "question": "What comes next: 2, 6, 12, 20, 30, ?",
+    "options": ["36", "40", "42", "48"],
+    "answer": "42"
+  },
+  {
+    "stage": 3,
+    "question": "A man walks 1 km south, 1 km east, and 1 km north. He ends up at the starting point. Where is he?",
+    "options": ["North Pole", "South Pole", "Equator", "Impossible"],
+    "answer": "North Pole"
+  },
+  {
+    "stage": 3,
+    "question": "If you have a 10-liter jug and a 6-liter jug, how can you measure 8 liters?",
+    "options": [
+      "Fill 10L, pour into 6L, left is 4L, empty 6L, pour 4L to 6L, fill 10L, pour 2L into 6L",
+      "Fill 6L twice",
+      "Impossible",
+      "Just estimate"
+    ],
+    "answer": "Fill 10L, pour into 6L, left is 4L, empty 6L, pour 4L to 6L, fill 10L, pour 2L into 6L"
+  },
+  {
+    "stage": 3,
+    "question": "Find the odd one out: 2, 3, 5, 7, 11, 13, 15, 17",
+    "options": ["15", "13", "11", "17"],
+    "answer": "15"
+  },
+  {
+    "stage": 3,
+    "question": "How many times do the hands of a clock overlap in 24 hours?",
+    "options": ["24", "22", "44", "48"],
+    "answer": "44"
+  },
+  {
+    "stage": 3,
+    "question": "If 1 = 3, 2 = 3, 3 = 5, 4 = 4, 5 = 4, what does 6 = ?",
+    "options": ["3", "4", "5", "6"],
+    "answer": "3"
+  },
+  {
+    "stage": 3,
+    "question": "A boat can travel 10 km upstream in 2 hours. The same distance downstream takes 1 hour. What is the speed of the boat in still water?",
+    "options": ["5 km/hr", "7.5 km/hr", "6 km/hr", "8 km/hr"],
+    "answer": "6 km/hr"
+  },
+  {
+    "stage": 3,
+    "question": "A cube has how many edges?",
+    "options": ["6", "8", "12", "16"],
+    "answer": "12"
+  },
+  {
+    "stage": 3,
+    "question": "Which number does not belong: 8, 27, 64, 100, 125?",
+    "options": ["100", "64", "27", "125"],
+    "answer": "100"
+  },
+  {
+    "stage": 3,
+    "question": "I am a three-digit number. My tens digit is five more than my ones digit, and my hundreds digit is eight less than my tens digit. Who am I?",
+    "options": ["193", "271", "352", "461"],
+    "answer": "193"
+  },
+  {
+    "stage": 4,
+    "question": "How do you handle a situation when you disagree with a team member?",
+    "options": [
+      "Ignore them and do your work",
+      "Discuss politely to reach a mutual understanding",
+      "Complain to your manager immediately",
+      "Refuse to work with them"
+    ],
+    "answer": "Discuss politely to reach a mutual understanding"
+  },
+  {
+    "stage": 4,
+    "question": "You missed an important deadline. What would you do?",
+    "options": [
+      "Blame someone else",
+      "Hide the mistake",
+      "Inform your manager, apologize, and propose a solution",
+      "Do nothing and move on"
+    ],
+    "answer": "Inform your manager, apologize, and propose a solution"
+  },
+  {
+    "stage": 4,
+    "question": "How do you prioritize tasks when you have multiple deadlines?",
+    "options": [
+      "Work on the easiest tasks first",
+      "Prioritize based on urgency and importance",
+      "Do tasks randomly",
+      "Ask someone else to decide"
+    ],
+    "answer": "Prioritize based on urgency and importance"
+  },
+  {
+    "stage": 4,
+    "question": "A colleague is taking credit for your work. How would you respond?",
+    "options": [
+      "Confront them aggressively",
+      "Discuss calmly and clarify your contribution",
+      "Ignore it completely",
+      "Quit the project"
+    ],
+    "answer": "Discuss calmly and clarify your contribution"
+  },
+  {
+    "stage": 4,
+    "question": "How do you handle stress at work?",
+    "options": [
+      "Take short breaks and plan your work",
+      "Panic and rush",
+      "Ignore the stress",
+      "Blame others"
+    ],
+    "answer": "Take short breaks and plan your work"
+  },
+  {
+    "stage": 4,
+    "question": "You are given a task outside your expertise. What would you do?",
+    "options": [
+      "Refuse to do it",
+      "Attempt it and learn along the way",
+      "Delay indefinitely",
+      "Ask someone else to do it"
+    ],
+    "answer": "Attempt it and learn along the way"
+  },
+  {
+    "stage": 4,
+    "question": "How do you react to constructive criticism?",
+    "options": [
+      "Take it personally",
+      "Listen and apply the feedback",
+      "Ignore it",
+      "Argue back"
+    ],
+    "answer": "Listen and apply the feedback"
+  },
+  {
+    "stage": 4,
+    "question": "A team member is not contributing enough. How would you handle it?",
+    "options": [
+      "Report them immediately",
+      "Offer help and encourage them",
+      "Do their work yourself",
+      "Ignore the problem"
+    ],
+    "answer": "Offer help and encourage them"
+  },
+  {
+    "stage": 4,
+    "question": "How do you ensure effective communication in a team?",
+    "options": [
+      "Send emails only",
+      "Hold regular meetings and share updates",
+      "Avoid talking to team members",
+      "Communicate only when asked"
+    ],
+    "answer": "Hold regular meetings and share updates"
+  },
+  {
+    "stage": 4,
+    "question": "What would you do if you realize you made a mistake in a project?",
+    "options": [
+      "Cover it up",
+      "Immediately inform relevant people and fix it",
+      "Blame others",
+      "Ignore it"
+    ],
+    "answer": "Immediately inform relevant people and fix it"
+  },
+  {
+    "stage": 4,
+    "question": "How do you deal with a tight deadline?",
+    "options": [
+      "Prioritize tasks and work efficiently",
+      "Panic and stress out",
+      "Do only part of the work",
+      "Ignore it"
+    ],
+    "answer": "Prioritize tasks and work efficiently"
+  },
+  {
+    "stage": 4,
+    "question": "If you have multiple projects, how do you manage them?",
+    "options": [
+      "Focus on one and forget the others",
+      "Use time management and track progress",
+      "Ignore deadlines",
+      "Ask others to help with everything"
+    ],
+    "answer": "Use time management and track progress"
+  },
+  {
+    "stage": 4,
+    "question": "A team member proposes an idea you don’t agree with. What do you do?",
+    "options": [
+      "Reject it without discussion",
+      "Listen, evaluate, and provide constructive feedback",
+      "Ignore it",
+      "Complain to manager"
+    ],
+    "answer": "Listen, evaluate, and provide constructive feedback"
+  },
+  {
+    "stage": 4,
+    "question": "How do you motivate yourself when tasks seem boring?",
+    "options": [
+      "Take breaks and focus on goals",
+      "Complain to others",
+      "Ignore the task",
+      "Procrastinate"
+    ],
+    "answer": "Take breaks and focus on goals"
+  },
+  {
+    "stage": 4,
+    "question": "How do you handle conflicts in a team?",
+    "options": [
+      "Ignore conflicts",
+      "Address conflicts calmly and find a solution",
+      "Take sides immediately",
+      "Quit the team"
+    ],
+    "answer": "Address conflicts calmly and find a solution"
+  },
+  {
+    "stage": 4,
+    "question": "You notice a process in your team can be improved. What do you do?",
+    "options": [
+      "Ignore it",
+      "Suggest improvements politely and provide solutions",
+      "Complain without solutions",
+      "Do it secretly yourself"
+    ],
+    "answer": "Suggest improvements politely and provide solutions"
+  },
+  {
+    "stage": 4,
+    "question": "How do you approach learning a new skill?",
+    "options": [
+      "Avoid it if difficult",
+      "Learn gradually and practice regularly",
+      "Ask someone else to teach everything",
+      "Ignore it"
+    ],
+    "answer": "Learn gradually and practice regularly"
+  },
+  {
+    "stage": 4,
+    "question": "How do you respond if your idea is rejected by your manager?",
+    "options": [
+      "Get upset",
+      "Understand the reasoning and improve it",
+      "Complain to colleagues",
+      "Ignore manager’s opinion"
+    ],
+    "answer": "Understand the reasoning and improve it"
+  },
+  {
+    "stage": 4,
+    "question": "You notice a mistake by a team member. How would you handle it?",
+    "options": [
+      "Publicly criticize them",
+      "Privately discuss and help correct it",
+      "Ignore it",
+      "Report without talking"
+    ],
+    "answer": "Privately discuss and help correct it"
+  },
+  {
+    "stage": 4,
+    "question": "How do you manage work-life balance?",
+    "options": [
+      "Ignore personal life",
+      "Plan time efficiently and set boundaries",
+      "Work constantly",
+      "Leave all work for later"
+    ],
+    "answer": "Plan time efficiently and set boundaries"
+  },
+  {
+    "stage": 4,
+    "question": "A client is unhappy with your work. What is your response?",
+    "options": [
+      "Blame others",
+      "Listen, understand the issue, and propose a solution",
+      "Ignore the client",
+      "Argue with the client"
+    ],
+    "answer": "Listen, understand the issue, and propose a solution"
+  },
+  {
+    "stage": 4,
+    "question": "How do you approach a task you have never done before?",
+    "options": [
+      "Ignore it",
+      "Research, learn, and try it step by step",
+      "Ask someone to do it",
+      "Do it randomly"
+    ],
+    "answer": "Research, learn, and try it step by step"
+  },
+  {
+    "stage": 4,
+    "question": "How do you deal with repeated failures?",
+    "options": [
+      "Give up",
+      "Analyze mistakes and try different approaches",
+      "Blame others",
+      "Ignore failures"
+    ],
+    "answer": "Analyze mistakes and try different approaches"
+  },
+  {
+    "stage": 4,
+    "question": "How do you handle tight deadlines with limited resources?",
+    "options": [
+      "Prioritize and optimize available resources",
+      "Panic",
+      "Do partial work",
+      "Ask someone else to finish it"
+    ],
+    "answer": "Prioritize and optimize available resources"
+  },
+  {
+    "stage": 4,
+    "question": "You disagree with a company policy. What do you do?",
+    "options": [
+      "Break the policy",
+      "Raise concerns professionally and follow the policy meanwhile",
+      "Ignore everything",
+      "Complain to everyone"
+    ],
+    "answer": "Raise concerns professionally and follow the policy meanwhile"
+  }
+]
