@@ -4,7 +4,7 @@ Game of Intelligence (GOI) is a quiz-style game inspired by Kaun Banega Crorepat
 It challenges players through multiple stages of increasing difficulty — starting from quick aptitude riddles in the screening round.
 Now, GOI also supports field-based quizzes(e.g., developer, marketing, finance, law, general). Players can choose their area of interest (e.g., developer, marketing, finance, law, general) and get stage-wise questions tailored to that field.
 
-# Features
+### Features
 *	User Registration & Login – simple auth system for players.
 *	Screening Round – solve 3 quick riddles to qualify.
 *	Field Selection – pick your area of interest before starting the game.
@@ -13,13 +13,13 @@ Now, GOI also supports field-based quizzes(e.g., developer, marketing, finance, 
 *	Dynamic Question Selection – random questions each game for variety.
 *	Future-ready – planned DB integration (PostgreSQL), frontend in FlutterFlow.
 
-# Tech Stack
+### Tech Stack
 *	Backend: Python, FastAPI
 *	Data: later PostgreSQL
 *	Frontend (Planned): FlutterFlow
 *	Version Control: Git + GitHub
 
- # Roadmap
+### Roadmap
 *	✅ Basic FastAPI backend with in-memory logic
 *	✅ Screening round (riddles)
 *	✅ Stage-wise progression logic
