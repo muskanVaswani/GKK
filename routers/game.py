@@ -1,9 +1,10 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends, HTTPException
+from sqlalchemy.orm import Session
+from db import get_db
+from models.models import Question, Result
 import random
-from random import sample
-from pathlib import Path
 from pydantic import BaseModel
-import json
+
 
 router = APIRouter(prefix="/game", tags=["game"])
 
@@ -18,67 +19,58 @@ class FieldSelection(BaseModel):
     user_id: int
     field: str
 
-#load questions from json file
-def loading_questions(field:str):
-    questions_file = Path(__file__).parent.parent / "data"/f"{field}_questions.json"
-    with open(questions_file, "r", encoding="utf8") as file:
-        return json.load(file)
 
 #stage wise questions
-def get_questions_stagewise(stage:int,field:str):
-    all_questions = loading_questions(field)
-    stage_questions = [q for q in all_questions if q["stage"] == stage]
-    selected = random.sample(stage_questions, min(5, len(stage_questions)))
-    return selected
+def get_questions_stagewise(stage:int,field:str, db: Session):
+    questions = db.query(Question).filter(
+        Question.stage == stage,
+        Question.field == field
+    ).all()
+    if not questions:
+        raise HTTPException(status_code=404, detail="No questions found for this stage and field.")
+    
+    return random.sample(questions, min(5,len(questions)))
+    
 
 #start game logic
-@router.post("/start/{user_id}")
-def start_game(payload: FieldSelection):
-    field = payload.field.lower()
+@router.post("/start")
+def start_game(payload: FieldSelection, db: Session = Depends(get_db)):
+        field = payload.field.lower()
+        selected = get_questions_stagewise(1,field, db)
     
-    selected = get_questions_stagewise(1,field)
-    
-    user_game[payload.user_id] ={
-        "stage":1,
-        "questions" : selected,
-        "current_question_index":0,
-        "score":0,
-        "field":field
-    }
-    
-    labels = ["A", "B", "C", "D"]
-    options_with_labels = {label: opt for label, opt in zip(labels, selected[0]["options"])}
+        user_game[payload.user_id] ={
+            "stage":1,
+            "questions" : selected,
+            "current_question_index":0,
+            "score":0,
+            "field":field
+            }
+        first_q = selected[0]
+        labels = ["A", "B", "C", "D"]
+        options_with_labels = {"A": first_q.option_a, "B": first_q.option_b, "C": first_q.option_c, "D": first_q.option_d}
    
 
-    return {"stage":1, "question":selected[0]["question"],"options": options_with_labels }
+        return {"stage":1, "question":first_q.question, "options": options_with_labels }
 
 @router.post("/answer")
-def checking_answers(payload: Answer):
+def checking_answers(payload: Answer, db:Session = Depends(get_db)):
     game = user_game.get(payload.user_id)
     
     if not game:
-        return{"message": "no active game found. start from beginning"}
+        raise HTTPException(status_code=400, detail = "No active game found.")
     
     current_q = game["questions"][game["current_question_index"]]
-    correct_answer = current_q["answer"]
-    options = current_q["options"]
+    correct_answer = current_q.correct_option.upper()
+   
     
     #Normalize answers for comparison
     user_input = payload.answer.strip().upper()
     labels = ["A","B","C","D"]
+    if user_input not in ["A","B","C","D"]:
+        return {"message": "Please answer with A, B, C, or D"}
     
     
-    if user_input in labels:
-        idx = labels.index(user_input)
-        if idx < len(options):
-            user_answer = options[idx]
-        else:
-            return{"message": "invalid option"}
-    else:
-        user_answer = payload.answer.strip()
-        
-        
-    if user_answer.strip().lower() == correct_answer.strip().lower():
+    if user_input == correct_answer:
         game["current_question_index"] +=1
         
         #Stage complete
@@ -86,52 +78,66 @@ def checking_answers(payload: Answer):
             stage = game["stage"] + 1
 
             if stage > 4:
-                user_results[payload.user_id] = {
-                    "field": game.get("field", "Not selected"),
-                    "score": game["current_question_index" ] * 10,
-                    "stage": game["stage"]
-                    
-                    
-                }
-                user_game.pop(payload.user_id, None)
-                return{"message":"congratulations! you have Completed all stages of the game!",
-                       "play_again": True
-                       }
-            
+                # save result in DB
+                new_result = Result(
+                    user_id=payload.user_id,
+                    field=game["field"],
+                    score=game["current_question_index"] * 10,  # or however you score
+                    stage=game["stage"]
+                )
+                db.add(new_result)
+                db.commit()
+                db.refresh(new_result)
+                return{"Message": "congratulations! you have Completed all stages of the game!",}
+               
+            #fetch new stage questions
             game["stage"] = stage
             game["current_question_index"] = 0
-            game["questions"] = get_questions_stagewise(stage)
+            game["questions"] = get_questions_stagewise(stage, game["field"], db)
             
             next_q = game["questions"][0]
-            labels = ["A","B", "C", "D"]
-            options_with_labels = {label: opt for label, opt in zip(labels, next_q["options"])}
-            
             return{
-                "message": f"You cleared stage {stage -1} welcome to stage {stage}",
-                'question': next_q["question"],
-                "options": options_with_labels
+                "message": f"Stage {stage-1} cleared! Welcome to Stage {stage}.",
+                "question": next_q.question,
+                "options": {
+                    "A": next_q.option_a,
+                    "B": next_q.option_b,
+                    "C": next_q.option_c,
+                    "D": next_q.option_d,
+                }
             }
         
         #next question
         next_q = game["questions"][game["current_question_index"]]
-        labels = ["A","B","C","D"]
-        options_with_labels = {label:opt for label, opt in zip(labels, next_q["options"])}
-        
-
         return{
             "message": "correct answer",
             "stage": game["stage"],
-            "question": next_q["question"],
-            "options": options_with_labels
+            "question": next_q.question,
+            "options": {
+                "A": next_q.option_a,
+                "B": next_q.option_b,
+                "C": next_q.option_c,
+                "D": next_q.option_d
+        }
         }
         
     else:
-        #store results 
-        user_results[payload.user_id]={
-            "field": game.get("field", "Not slected"),
-            "score": game["current_question_index"] * 10,
-            "stage": game["stage"]
-        }
+        # #store results 
+        # user_results[payload.user_id]={
+        #     "field": game.get("field", "Not slected"),
+        #     "score": game["current_question_index"] * 10,
+        #     "stage": game["stage"]
+        # }
+        # save result in DB
+        new_result = Result(
+            user_id=payload.user_id,
+            field=game["field"],
+            score=game["current_question_index"] * 10,  # or however you score
+            stage=game["stage"]
+        )
+        db.add(new_result)
+        db.commit()
+        db.refresh(new_result)
         user_game.pop(payload.user_id,None)
         return{"message": f"Wrong! Game Over. Correct answer was {correct_answer}",
                "play_again": True}
@@ -139,7 +145,7 @@ def checking_answers(payload: Answer):
 
     
 @router.post("/restart/{user_id}")
-def restart_game(user_id:int):
+def restart_game(user_id:int, db:Session = Depends(get_db)):
     user_game.pop(user_id, None)
     return start_game(user_id)
 
