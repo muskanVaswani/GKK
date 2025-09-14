@@ -6,7 +6,6 @@ kbc_venv/
 
 
 # Ignore models and utils for now since they are empty
-models/
 utils/
 
 # IDE files (optional, if you use VSCode)
@@ -14,3 +13,6 @@ utils/
 
 # Logs
 *.log
+
+#test files
+test_db.py
