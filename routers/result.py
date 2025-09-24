@@ -30,8 +30,8 @@ def game_results(user_id:int, db:Session = Depends(get_db)):
         return{
             "field": db_result.field,
             "final_score": db_result.score,
-            "stage_reached": db_result.stage,
-            "status": "game_over",
+            "stage_reached": db_result.stage_reached,
+            # "status": "game_over",
             "options": {
                 "play_again": f"/game/restart/{user_id}",
                 "go_home": f"/game/home/{user_id}"

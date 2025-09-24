@@ -81,7 +81,7 @@
     "stage": 1,
     "question": "If a clock shows 3:15, what is the angle between the hour and minute hands?",
     "options": ["30°", "37.5°", "45°", "52.5°"],
-    "answer": "7.5°"
+    "answer": "37.5°"
   },
   {
     "stage": 1,

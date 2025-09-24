@@ -33,6 +33,7 @@ class Result(Base):
     field = Column(String(50), nullable=False)
     score = Column(Integer,nullable=False, default=0)
     stage_reached = Column(Integer, nullable=False)
+    status = Column(String(20), nullable=False, default="game_over")
     
     user = relationship("User", back_populates="results")
     
@@ -46,6 +47,7 @@ class GameState(Base):
     current_question_index = Column(Integer, default=0)
     score = Column(Integer, default=0)
     field = Column(String(50), nullable=True)
+    
     
     user = relationship("User", back_populates="game_states")
     
