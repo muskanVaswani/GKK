@@ -27,7 +27,8 @@ Now, GOI also supports field-based quizzes(e.g., developer, marketing, finance, 
 *	✅ Add PostgreSQL for persistence
 *	✅ FlutterFlow frontend development 
 *	✅ Connect with FlutterFlow frontend
-*	🔲 Enhance with timers, scoring system, and other functionalities
+*	🔲 Optimize FastAPI–FlutterFlow integration to reduce delays and improve loading
+* 🔲 Add timers, scoring system, and extended functionalities
 
 
 Demo with FlutterFlow frontend
